@@ -9,7 +9,10 @@ describe Airport do
   it "lands an airplane to an airport" do
     array = []
     plane = Airplane.new
+
     array << plane
+
+    subject.land(plane)
 
     expect(subject.aprons).to eq array
   end

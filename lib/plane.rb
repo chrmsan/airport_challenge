@@ -2,7 +2,7 @@ class Airplane
     attr_reader :landed
 
     def initialize
-        @landed = false    #
+        @landed = false    
     end
 
 end
