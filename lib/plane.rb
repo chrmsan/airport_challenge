@@ -1,7 +1,8 @@
-class Airliner
+class Airplane
+    attr_reader :landed
 
-    def flying?
-        true
+    def initialize
+        @landed = false    #
     end
 
 end
