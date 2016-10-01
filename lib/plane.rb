@@ -9,4 +9,8 @@ class Airplane
         @landed = true
     end
 
+    def off_ground
+        @landed = false
+    end
+
 end
