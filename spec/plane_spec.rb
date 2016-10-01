@@ -21,7 +21,7 @@ describe Airplane do
 
 	it "it changes landed status from true to false with off_ground method" do
 		plane.off_ground
-		expect(plane.landed).to eq true
+		expect(plane.landed).to eq false
 	end
 
 end

@@ -13,4 +13,9 @@ class Airport
         @aprons << plane
     end
 
+    def take_off(plane)
+        plane.off_ground
+        @aprons.pop
+    end
+
 end
