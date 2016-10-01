@@ -9,6 +9,7 @@ class Airport
     end
 
     def land(plane)
+        plane.on_ground
         @aprons << plane
     end
 
