@@ -2,20 +2,20 @@ require_relative 'plane'
 
 class Airport
 
-    attr_reader :aprons
+    attr_reader :flights
 
     def initialize
-        @aprons = []
+        @flights = []
     end
 
     def land(plane)
         plane.on_ground
-        @aprons << plane
+        @flights << plane
     end
 
     def take_off(plane)
         plane.off_ground
-        @aprons.pop
+        @flights.pop
     end
 
 end

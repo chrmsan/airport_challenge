@@ -16,7 +16,7 @@ describe Airport do
 
     subject.land(plane)
 
-    expect(subject.aprons).to eq array
+    expect(subject.flights).to eq array
   end
 
   it "airplane takes off from airport" do
